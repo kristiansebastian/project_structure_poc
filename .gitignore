@@ -3,5 +3,6 @@ out
 .idea
 *.pyc
 *.egg-info
+.eggs
 build
 dist

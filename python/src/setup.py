@@ -14,5 +14,10 @@ setup(
     packages=find_packages(),
     install_requires=[
         'pymongo==3.6.0',
-    ]
+    ],
+    tests_require=[
+        'nose',
+        'tox'
+    ],
+    test_suite='nose.collector'
 )
