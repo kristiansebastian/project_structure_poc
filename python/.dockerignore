@@ -1,0 +1,10 @@
+.idea
+**/*.pyc
+*.egg-info
+.eggs
+.tox
+build
+dist
+tdd_course.egg-info
+.dockerignore
+README.rst
