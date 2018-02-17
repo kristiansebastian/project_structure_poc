@@ -11,7 +11,9 @@ setup(
     author='Kristian Sebastian',
     author_email='kristian.sebastian@logitravelgroup.com',
     url='https://github.com/kristiansebastian/tdd_course',
-    packages=find_packages(),
+    # Package dir and where parameter must be set to properly install the package
+    package_dir={'': 'src'},
+    packages=find_packages(where='src', exclude='tests'),
     install_requires=[
         'pymongo==3.6.0',
     ],
