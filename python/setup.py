@@ -14,9 +14,7 @@ setup(
     # Package dir and where parameter must be set to properly install the package
     package_dir={'': 'src'},
     packages=find_packages(where='src', exclude='tests'),
-    install_requires=[
-        'pymongo==3.6.0',
-    ],
+    install_requires=[],
     tests_require=[
         'nose',
         'tox'

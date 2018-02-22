@@ -1,6 +1,7 @@
 # coding=utf-8
 import unittest
-from tdd_course.app import is_tdd_course
+
+from app.app import is_tdd_course
 
 
 class TestApp(unittest.TestCase):
